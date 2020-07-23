@@ -4,8 +4,8 @@ import smtplib
 
 def send_email():
     server=smtplib.SMTP_SSL("smtp.gmail.com",465)
-    server.login("#majhisanjib.99@gmail.com#","#majhisanjib1702#")
-    server.sendmail("majhisanjib.99@gmail.com","www.sanjay.2kumar@gmail.com","price is dropped")
+    server.login("<your email id>","<your email password>")
+    server.sendmail("<your email/sender>","<reciever email>","price is dropped")
     server.quit()
 
 
